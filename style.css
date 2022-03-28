@@ -1,0 +1,20 @@
+#fejlec{
+    background-color: #775144ff;
+    height: 7vw;
+    text-align: center;
+}
+
+
+
+.carouselkep{
+    height: 25%;
+}
+
+.carousel img{
+    max-height: 500px;
+
+}
+
+svg{
+    top: 50%;
+}
