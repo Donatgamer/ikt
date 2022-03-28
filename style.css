@@ -18,3 +18,30 @@
 svg{
     top: 50%;
 }
+
+.navbar{
+    background-color: #775144ff;
+    
+}
+
+.menu{
+    background-color: #775144ff;
+    height: 60px;
+}
+
+.menuitem{
+    margin-top: auto;
+    margin-bottom: auto;
+    float: none;
+    text-align: center;
+}
+
+.menu-link:hover{
+    color: black;
+    text-decoration: none;
+}
+.menu-link{
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
