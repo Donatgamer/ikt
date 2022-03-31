@@ -1,5 +1,5 @@
 #fejlec{
-    background-color: #99a68bff;
+    background-color: #939F5C;
     height: 7vw;
     text-align: center;
     
@@ -10,11 +10,11 @@
     font-family: 'Roboto', sans-serif;
     font-variant: small-caps;
     font-size: 45pt;
-    color: #66635bff;
+    color: #BBCE8A;
 }
 
 .navbar{
-    background-color: #99a68bff;
+    background-color: #939F5C;
     padding: 15px;
     text-align: center;
     font-size: 15pt;
@@ -28,14 +28,14 @@ svg{
     position: relative;
     top: 27.5%;
     height: 50px;
-    color: rgba(102, 99, 91, 1);
+    color: rgba(187, 206, 138, 1);
 }
 .nav-link svg{
     height: 35px;
 }
 
 .nav-link svg:hover{
-    color: rgba(102, 99, 91, .6);
+    color: rgba(187, 206, 138, .6);
 }
 
 .carousel-inner{
@@ -51,10 +51,8 @@ svg{
 
 
 #tartalom{
-    color: #66635bff;
-    
-    
-    background-color: #99a68bff;
+    color: #E2F9B8;
+    background-color: #939F5C;
 }
 
 .szoveg{
@@ -65,7 +63,7 @@ svg{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-variant: small-caps;
-    text-decoration: underline solid #66635bff;
+    text-decoration: underline solid #E2F9B8;
 }
 .bekezdes{
     text-align: justify;
@@ -73,7 +71,7 @@ svg{
     margin: 15px 75px;
 }
 
-.tartalom_kep{
+.tartalom1_kep{
     width: 550px;
     height: 550px;
 }
@@ -83,13 +81,12 @@ svg{
     font-family: 'Roboto', sans-serif;
     font-variant: small-caps;
     font-size: 40pt;
-    color: #66635bff;
-    text-decoration: underline solid #66635bff;
+    color: #273B09;
+    text-decoration: underline solid #273B09;
     margin-bottom: 5px;
     margin-top: 18px;
 }
 
 .főcím{
     height: 100px;
-    
 }
