@@ -46,6 +46,15 @@ svg{
     margin: none;
 }
 
+.carousel_szoveg{
+    font-size: 25pt;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(147, 159, 92, 0.7);
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
+
 
 
 
@@ -53,7 +62,6 @@ svg{
 #tartalom{
     color: #E2F9B8;
     background-color: #939F5C;
-    padding: 25px 15px;
 }
 
 .szoveg{
@@ -67,15 +75,20 @@ svg{
     text-decoration: underline solid #E2F9B8;
 }
 .bekezdes{
-    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
     font-size: large;
-    /* margin: 15px 75px; */
+    margin: 30px 15px;
+    /* padding: 25px 15px; */
 }
 
 .tartalom1_kep{
-    height: 80%;
-    
-    display: inline-block;
+    width: 100%;
+    border: #BBCE8A solid 2px;
+}
+
+.kepek_fooldal{
+    text-align: right;
 }
 
 .főcím_szöveg{
@@ -90,16 +103,25 @@ svg{
 }
 
 .főcím{
-<<<<<<< HEAD
-    height: 30%;
+    height: 100px;
+    background-color: white;
 }
 
-.cica{
-    height: auto;
-    overflow: hidden;
+.hely{
+    height: 60px;
+    background-color: white;
 }
-=======
-    height: 100px;
+
+.footer{
+    background-color: #939F5C;
+    text-align: center;
+    font-size: 14pt;
+    height: 60px;
+}
+
+.footer_szoveg{
+    font-family: 'Roboto', sans-serif;
+    color: #E2F9B8;
 }
 
 #btn-back-to-top {
@@ -107,10 +129,5 @@ svg{
     bottom: 20px;
     right: 20px;
     display: none;
-    background-color: #273B09;
+    background-color: rgba(39, 48, 27, 0.7);
   }
-
-  body{
-      width: 100vw;
-  }
->>>>>>> d6620152ed9dda886616dde5958cf47398aca7c6
