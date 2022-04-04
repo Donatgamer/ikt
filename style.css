@@ -53,6 +53,7 @@ svg{
 #tartalom{
     color: #E2F9B8;
     background-color: #939F5C;
+    padding: 25px 15px;
 }
 
 .szoveg{
@@ -68,12 +69,13 @@ svg{
 .bekezdes{
     text-align: justify;
     font-size: large;
-    margin: 15px 75px;
+    /* margin: 15px 75px; */
 }
 
 .tartalom1_kep{
-    width: 550px;
-    height: 550px;
+    height: 80%;
+    
+    display: inline-block;
 }
 
 .főcím_szöveg{
@@ -88,5 +90,10 @@ svg{
 }
 
 .főcím{
-    height: 100px;
+    height: 30%;
+}
+
+.cica{
+    height: auto;
+    overflow: hidden;
 }
