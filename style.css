@@ -90,6 +90,7 @@ svg{
 }
 
 .főcím{
+<<<<<<< HEAD
     height: 30%;
 }
 
@@ -97,3 +98,19 @@ svg{
     height: auto;
     overflow: hidden;
 }
+=======
+    height: 100px;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #273B09;
+  }
+
+  body{
+      width: 100vw;
+  }
+>>>>>>> d6620152ed9dda886616dde5958cf47398aca7c6
