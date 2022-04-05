@@ -129,5 +129,15 @@ svg{
     bottom: 20px;
     right: 20px;
     display: none;
-    background-color: rgba(39, 48, 27, 0.7);
+    background-color: rgba(39, 48, 27, 0.7)
   }
+
+  #btn-back-to-top:hover {
+    background-color: rgba(187, 206, 138, 1);
+    color: rgba(39, 48, 27, 0.7);
+  }
+
+  #btn-back-to-top:hover svg{
+    color: rgba(39, 48, 27, 0.7);
+  }
+  
