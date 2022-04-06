@@ -96,8 +96,8 @@ svg{
     font-family: 'Roboto', sans-serif;
     font-variant: small-caps;
     font-size: 40pt;
-    color: #273B09;
-    text-decoration: underline solid #273B09;
+    color: #66635B;
+    text-decoration: underline solid #66635B;
     margin-bottom: 5px;
     margin-top: 18px;
 }
@@ -113,7 +113,7 @@ svg{
 }
 
 .footer{
-    background-color: #99a68bff;
+    background-color: rgba(153, 166, 139);
     text-align: center;
     font-size: 14pt;
     height: 60px;
@@ -129,11 +129,12 @@ svg{
     bottom: 20px;
     right: 20px;
     display: none;
-    background-color: rgba(39, 48, 27, 0.7)
+    background-color: rgba(153, 166, 139, .7);
+    border: #66635B solid 2px;
   }
 
   #btn-back-to-top svg{
-    color: #273B09;
+    color: #66635B;
   }
 
   .oldal_neve{
@@ -156,11 +157,10 @@ svg{
   }
 
   #btn-back-to-top:hover {
-    background-color: rgba(187, 206, 138, 1);
-    color: rgba(39, 48, 27, 0.7);
+    background-color: rgba(102, 99, 91, .8);
   }
 
   #btn-back-to-top:hover svg{
-    color: rgba(39, 48, 27, 0.7);
+    color: rgba(153, 166, 139, .7);
   }
   
