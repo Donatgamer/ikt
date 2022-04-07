@@ -151,10 +151,7 @@ svg{
       color: #66635B;
       font-variant: small-caps;
   }
-
-  .nemaktiv{
-    color: rgba(102, 99, 91, .6);
-  }
+  
 
   #btn-back-to-top:hover {
     background-color: rgba(102, 99, 91, .8);
@@ -275,3 +272,24 @@ svg{
 .card {
     border: 0px;
 }
+  .galeria{
+      text-align: center;
+      padding: 10px 0px;
+      margin: 20px 0px;
+  }
+
+  .galeria_kep{
+        width: 80%;
+        border: 5px solid rgba(153, 166, 139, 1);
+        transition: 1s;
+  }
+
+  .galeria_kep:hover{
+      width: 85%;
+      transition: 1s;
+      cursor: pointer;
+  }
+
+  .nemaktiv svg{
+    color: rgba(102, 99, 91, .6);
+  }
