@@ -151,9 +151,7 @@ svg{
       color: #66635B;
       font-variant: small-caps;
   }
-  .nemaktiv{
-    color: rgba(102, 99, 91, .6);
-  }
+  
 
   #btn-back-to-top:hover {
     background-color: rgba(102, 99, 91, .8);
@@ -179,4 +177,8 @@ svg{
       width: 85%;
       transition: 1s;
       cursor: pointer;
+  }
+
+  .nemaktiv svg{
+    color: rgba(102, 99, 91, .6);
   }

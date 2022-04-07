@@ -23,3 +23,13 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+function kepMegnyit(){
+  kep = document.getElementById("galkep");
+  kep.style.display = "block";
+}
+
+function kepBezar(){
+  kep = document.getElementById("galkep");
+  kep.style.display = "none";
+}
