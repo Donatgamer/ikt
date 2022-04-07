@@ -164,3 +164,114 @@ svg{
     color: rgba(153, 166, 139, .7);
   }
   
+
+
+  
+  .árcucc{
+    color: #fff;
+    background: #212121;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 0 0 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-top: 2%;
+}
+.árcucc .árcucc-header{
+    background: linear-gradient(to right, #BF557B, #8B2D6A);
+    padding: 35px 10px 55px;
+}
+.árcucc .price-value .ár{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    display: inline-block;
+}
+.árcucc .price-value .mennyiség{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    display: inline-block;
+}
+.árcucc .price-value .valami{
+    font-size: 25px;
+    font-weight: 400;
+    opacity: 0.8;
+    display: block;
+}
+.árcucc .title{
+    background: linear-gradient(to right, #A14566, #6C2652);
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    margin: -50px 0 35px;
+    display: inline-block;
+}
+.árcucc .pricing-content{
+    padding: 0 30px;
+    margin: 0 0 25px;
+    list-style: none;
+}
+.árcucc .pricing-content li{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    margin: 0 0 15px;
+    border-bottom: 2px solid #595959;
+}
+.árcucc .pricing-content li:last-child{
+    margin: 0;
+    border: none;
+}
+.árcucc .árcucc-signup a{
+    color: #fff;
+    background: linear-gradient(to right, #BF557B, #8B2D6A);
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 13px 0;
+    margin: 0 30px;
+    display: block;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s;
+}
+.árcucc .árcucc-signup a:before{
+    content: '';
+    background-color: #212121;
+    position: absolute;
+    left: 2px;
+    right: 2px;
+    top: 2px;
+    bottom: 2px;
+    z-index: -1;
+    transition: all 0.3s ease 0s
+}
+.árcucc .árcucc-signup a:hover:before{ transform: scaleX(0); }
+.árcucc .árcucc-signup a:hover{
+    box-shadow: 0 0 10px #000;
+}
+.árcucc.green .árcucc-header,
+.árcucc.green .árcucc-signup a{
+    background: linear-gradient(to right, #6CB3A4, #498998);
+}
+.árcucc.green .title{
+    background: linear-gradient(to right, #509288, #3E6B76);
+}
+.árcucc.golden .árcucc-header,
+.árcucc.golden .árcucc-signup a{
+    background: linear-gradient(to right, #E99B22, #D77C2B);
+}
+.árcucc.golden .title{
+    background: linear-gradient(to right, #B98320, #AC6116);
+}
+@media only screen and (max-width: 990px){
+    .árcucc{ margin-bottom: 40px; }
+}
+
+.card {
+    border: 0px;
+}
