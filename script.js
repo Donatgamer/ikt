@@ -33,3 +33,10 @@ function kepBezar(){
   kep = document.getElementById("galkep");
   kep.style.display = "none";
 }
+
+$('.galeria_kep').on('click', function(){
+   var pos = $(this).position();
+   $('.galeria_kijovo').css({top: pos.top, left: '0'});
+   $('.galeria_kijovo').css('display', 'block');
+})
+  
