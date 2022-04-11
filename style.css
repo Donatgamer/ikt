@@ -235,6 +235,8 @@ svg{
     position: relative;
     z-index: 1;
     transition: all 0.3s;
+    text-decoration: none;
+    cursor: pointer;
 }
 .árcucc .árcucc-signup a:before{
     content: '';
@@ -293,3 +295,5 @@ svg{
   .nemaktiv svg{
     color: rgba(102, 99, 91, .6);
   }
+
+    
