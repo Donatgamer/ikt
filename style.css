@@ -285,9 +285,16 @@ svg{
   }
 
   .galeria_kep:hover{
-      width: 85%;
-      transition: 1s;
+      transform:scale(1.1);
+      transition: .6s;
       cursor: pointer;
+  }
+
+  .galeria_kijovo{
+      position: absolute !important;
+      left: 0px;
+      z-index: 1 !important;
+      display: none;
   }
 
   .nemaktiv svg{
