@@ -42,3 +42,6 @@ $('.galeria_kep').on('click', function(){
   
 
 
+$('.kiugro_bezaro').on('click', function(){
+  $('.galeria_kijovo').css('display', 'none');
+})
