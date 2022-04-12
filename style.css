@@ -165,8 +165,8 @@ svg{
 
   
   .árcucc{
-    color: #fff;
-    background: #212121;
+    color: #66635B;
+    background: #99a68bff;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     padding: 0 0 30px;
@@ -174,7 +174,7 @@ svg{
     margin-top: 2%;
 }
 .árcucc .árcucc-header{
-    background: linear-gradient(to right, #BF557B, #8B2D6A);
+    background: linear-gradient(to right, #485935ff, #b3c0a4ff);
     padding: 35px 10px 55px;
 }
 .árcucc .price-value .ár{
@@ -196,7 +196,7 @@ svg{
     display: block;
 }
 .árcucc .title{
-    background: linear-gradient(to right, #A14566, #6C2652);
+    background: linear-gradient(to right, #485935ff, #b3c0a4ff);
     font-size: 35px;
     font-weight: 600;
     text-transform: capitalize;
@@ -224,8 +224,8 @@ svg{
     border: none;
 }
 .árcucc .árcucc-signup a{
-    color: #fff;
-    background: linear-gradient(to right, #BF557B, #8B2D6A);
+    color: #66635B;
+    background: linear-gradient(to right, #485935ff, #b3c0a4ff);
     font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
@@ -240,7 +240,7 @@ svg{
 }
 .árcucc .árcucc-signup a:before{
     content: '';
-    background-color: #212121;
+    background-color: #99a68bff;
     position: absolute;
     left: 2px;
     right: 2px;
@@ -249,24 +249,14 @@ svg{
     z-index: -1;
     transition: all 0.3s ease 0s
 }
-.árcucc .árcucc-signup a:hover:before{ transform: scaleX(0); }
+.árcucc .árcucc-signup a:hover:before{
+     transform: scaleX(0);
+    }
+
 .árcucc .árcucc-signup a:hover{
     box-shadow: 0 0 10px #000;
 }
-.árcucc.green .árcucc-header,
-.árcucc.green .árcucc-signup a{
-    background: linear-gradient(to right, #6CB3A4, #498998);
-}
-.árcucc.green .title{
-    background: linear-gradient(to right, #509288, #3E6B76);
-}
-.árcucc.golden .árcucc-header,
-.árcucc.golden .árcucc-signup a{
-    background: linear-gradient(to right, #E99B22, #D77C2B);
-}
-.árcucc.golden .title{
-    background: linear-gradient(to right, #B98320, #AC6116);
-}
+
 @media only screen and (max-width: 990px){
     .árcucc{ margin-bottom: 40px; }
 }

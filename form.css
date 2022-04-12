@@ -1,5 +1,5 @@
 body {
-    color: #000;
+    color: #66635B;
     overflow-x: hidden;
     height: 100%;
     background-color:  #99a68bff;
@@ -13,20 +13,18 @@ body {
     margin-bottom: 60px;
     border: none;
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
-    background-color: #66635bff;
+    background-color: #b3c0a4ff;
 }
 
 .blue-text {
-    color: #00BCD4
+    color: #66635B
 }
 
 .form-control-label {
     margin-bottom: 0
 }
 
-input,
-textarea,
-button {
+input, textarea, button, select {
     padding: 8px 15px;
     border-radius: 5px;
     margin: 5px 0px;
@@ -36,8 +34,7 @@ button {
     font-weight: 300
 }
 
-input:focus,
-textarea:focus {
+input:focus, textarea:focus {
     -moz-box-shadow: none ;
     -webkit-box-shadow: none ;
     box-shadow: none ;
@@ -52,10 +49,6 @@ textarea:focus {
     font-weight: 400;
     height: 43px;
     cursor: pointer
-}
-
-.btn-block:hover {
-    color: #fff 
 }
 
 button:focus {

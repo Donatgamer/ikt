@@ -92,17 +92,37 @@
                 <h3>Megrendelés</h3>
                 <div class="card">
                     <h5 class="text-center mb-4">Fotózás megrendelése</h5>
-                    <form class="form-card">
+                    <form class="form-card was-validated" >
                         <div class="row justify-content-between text-left">
-                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Vezetéknév<span class="text-danger"> *</span></label> <input type="text" id="fname" name="fname" placeholder="" > </div>
-                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Keresztnév<span class="text-danger"> *</span></label> <input type="text" id="lname" name="lname" placeholder=""> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Vezetéknév<span class="text-danger">*</span></label> <input type="text" id="fname" name="fname" placeholder="John" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div></div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Keresztnév<span class="text-danger">*</span></label> <input type="text" id="lname" name="lname" placeholder="Doe" required> 
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Please fill out this field.</div></div>
                         </div>
                         <div class="row justify-content-between text-left">
-                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">E-mail<span class="text-danger"> *</span></label> <input type="text" id="email" name="email" placeholder=""> </div>
-                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Telefonszám<span class="text-danger"> *</span></label> <input type="text" id="mob" name="mob" placeholder=""> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">E-mail<span class="text-danger">*</span></label> <input type="email" id="email" name="email" placeholder="JohnDoe@gmail.com" required> 
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Please fill out this field.</div>
+                            </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Telefonszám<span class="text-danger">*</span></label> <label for="tel"></label><input type="tel" id="mob" name="mob" placeholder="06 20 123 4567" required> 
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Please fill out this field.</div></div>
                         </div>
                         <div class="row justify-content-between text-left">
-                            <div class="form-group col-12 flex-column d-flex"> <label class="form-control-label px-3">Milyen típusú fotózást szeretne?<span class="text-danger"> *</span></label> <input type="text" id="ans" name="ans" placeholder=""> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Típus<span class="text-danger">*</span></label><select  class="form-select" >
+                                <option selected>Esküvő</option>
+                                <option value="1">Esemény</option>
+                                <option value="2">Portré</option>
+                                
+                              </select></div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Dátum<span class="text-danger">*</span></label> <input type="date" id="mob" name="mob" required> 
+                            
+                            </div>
+                        </div>
+                        <div class="row justify-content-between text-left">
+                            <div class="form-group col-12 flex-column d-flex"> <label class="form-control-label px-3">Megjegyzés</label> <input type="text" id="ans" name="ans"  size="10"> </div>
                         </div>
                         <div class="row justify-content-end">
                             <div class="form-group col-sm-6"> <button type="reset" class="btn-block btn-danger">Törlés</button> </div>

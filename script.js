@@ -40,3 +40,5 @@ $('.galeria_kep').on('click', function(){
    $('.galeria_kijovo').css('display', 'block');
 })
   
+
+
