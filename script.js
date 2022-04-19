@@ -1,4 +1,4 @@
-
+var eredetiHely = 0;
 let mybutton = document.getElementById("btn-back-to-top");
 
 
@@ -35,8 +35,24 @@ function kepBezar(){
 }
 
 $('.galeria_kep').on('click', function(){
-   var pos = $(this).position();
-   $('.galeria_kijovo').css({top: pos.top, left: '0'});
+  //  var pos = $(this).position();
+  eredetiHely = $(document).scrollTop();
+   $('.galeria_kijovo').css({
+    width: '67.5vw',
+    left: '16.25vw',
+    right: '16.25vw',
+    position: 'fixed',
+    borderRadius: '10px',
+    // filter: 'blur(5px)'
+  });
+  //  $('body').not('.galeria_kep').css('filter','blur(5px)');
+   $('#btn-back-to-top').css('display', 'none');
+   $('html, body').css({
+    overflow: 'hidden',
+    height: '100%'
+    });
+   var kep = $(this).attr('src');
+   $('.galeria_kijovo .kijovo img').attr('src', kep);
    $('.galeria_kijovo').css('display', 'block');
 })
   
@@ -44,4 +60,9 @@ $('.galeria_kep').on('click', function(){
 
 $('.kiugro_bezaro').on('click', function(){
   $('.galeria_kijovo').css('display', 'none');
+  $('html, body').css({
+    overflow: 'auto',
+    height: 'auto'
+  });
+  $(document).scrollTop(eredetiHely);
 })
