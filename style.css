@@ -328,6 +328,14 @@ svg{
       top: 50px;
       right: 10px;
   }
-  /* #kiugrokep{
-
-  } */
+@media only screen and (orientation: portrait) {
+    .kijovo{
+        margin-top: 35vh;
+        /* margin-bottom: auto; */
+    }
+    .galeria_kijovo{
+        margin-left: 0;
+        margin-right: 0;
+        left: 7.5vw;
+    }
+}
