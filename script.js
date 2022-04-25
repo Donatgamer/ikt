@@ -37,15 +37,23 @@ function kepBezar(){
 $('.galeria_kep').on('click', function(){
   //  var pos = $(this).position();
   eredetiHely = $(document).scrollTop();
-   $('.galeria_kijovo').css({
-    width: '67.5vw',
-    left: '16.25vw',
-    right: '16.25vw',
-    position: 'fixed',
-    borderRadius: '10px',
-    // filter: 'blur(5px)'
-  });
-  //  $('body').not('.galeria_kep').css('filter','blur(5px)');
+  if(window.innerHeight > window.innerWidth){
+    //portrait
+    $('.galeria_kijovo').css({
+      width: '85vw',
+      position: 'fixed',
+      borderRadius: '10px'
+    });
+  }
+  else{
+     $('.galeria_kijovo').css({
+      width: '67.5vw',
+      left: '16.25vw',
+      right: '16.25vw',
+      position: 'fixed',
+      borderRadius: '10px'
+    });
+  }
    $('#btn-back-to-top').css('display', 'none');
    $('html, body').css({
     overflow: 'hidden',
@@ -54,6 +62,7 @@ $('.galeria_kep').on('click', function(){
    var kep = $(this).attr('src');
    $('.galeria_kijovo .kijovo img').attr('src', kep);
    $('.galeria_kijovo').css('display', 'block');
+   $('.row').css('filter', 'blur(5px)')
 })
   
 
@@ -65,4 +74,5 @@ $('.kiugro_bezaro').on('click', function(){
     height: 'auto'
   });
   $(document).scrollTop(eredetiHely);
+  $('.row').css('filter', 'none');
 })
