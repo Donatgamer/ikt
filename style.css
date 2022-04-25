@@ -290,6 +290,10 @@ svg{
       
   }
 
+  .galeria_kijovo img{
+    border: 5px solid rgba(153, 166, 139, 1);
+  }
+
   .kiugro_bezaro{
       float: right;
       width: 36px;
@@ -302,6 +306,8 @@ svg{
 
   .kiugro_bezaro svg{
       color: white;
+      padding-right: 30px;
+      padding-top: 8px;
   }
 
   .nemaktiv svg{
@@ -313,22 +319,12 @@ svg{
     margin-right: auto;
   }
     
-  #el_fotosaink{
-    width: 70%;
-    margin: 10px auto;
-    padding: 20px;
-    border: 5px solid rgba(153, 166, 139, 1);
-    height: 200%;
-    color: rgba(102, 99, 91, 1);;
-    background-color: rgba(153, 166, 139, 1);
-    font-family: 'Roboto', sans-serif;
-  }
   #zarosvg{
       position: relative;
       top: 50px;
       right: 10px;
   }
-@media only screen and (orientation: portrait) {
+@media only screen and (orientation: portrait) and (max-width:600px) {
     .kijovo{
         margin-top: 35vh;
         /* margin-bottom: auto; */
@@ -338,4 +334,38 @@ svg{
         margin-right: 0;
         left: 7.5vw;
     }
+}
+
+#el_fotosaink{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid rgba(153, 166, 139, 1);
+    height: fit-content;
+    color: rgba(102, 99, 91, 1);
+    background-color: rgba(153, 166, 139, 1);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+
+.el_fotos_leiras{
+    font-size: 18pt;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.el_fotos_szoveg{
+    padding: 2px 0px;
+    font-size: 16pt;
+}
+
+.el_fotos_svg{
+    background-color: rgba(153, 166, 139, 1);
+    width: 100%;
+    
+    display: inline-block;
+}
+
+.el_fotos_svg svg{
+    color: rgba(102, 99, 91, 1)
 }
