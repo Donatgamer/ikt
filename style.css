@@ -138,7 +138,6 @@ svg{
   }
 
   .oldal_neve{
-      
       font-family: 'Roboto', sans-serif;
       
   }
@@ -349,14 +348,15 @@ svg{
   }
 
 .el_fotos_leiras{
-    font-size: 18pt;
+    font-size: 150%;
     font-style: italic;
     padding-bottom: 10px;
 }
 
 .el_fotos_szoveg{
     padding: 2px 0px;
-    font-size: 16pt;
+    font-size: 2vh;
+    /* font-size: 140%; */
 }
 
 .el_fotos_svg{
@@ -368,4 +368,13 @@ svg{
 
 .el_fotos_svg svg{
     color: rgba(102, 99, 91, 1)
+}
+
+.email_link{
+    color: rgba(102, 99, 91, 1);
+    
+}
+
+.email_link:hover{
+    color: rgba(102, 99, 91, .6);
 }
