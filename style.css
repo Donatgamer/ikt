@@ -2,7 +2,6 @@
     background-color: #99a68bff;
     height: 7vw;
     text-align: center;
-    
 }
 
 
@@ -42,24 +41,7 @@ svg{
     margin: 0%;
 }
 
-.carouselPictures{
-    margin: none;
-}
-
-/* .carousel_szoveg{
-    font-size: 25pt;
-    font-family: 'Roboto', sans-serif;
-    background-color: rgba(147, 159, 92, 0.7);
-    width: 40%;
-    text-align: center;
-    margin: 0 auto;
-} */
-
-
-
-
-
-#tartalom{
+.tartalom{
     color: #66635B;
     background-color: #99a68bff;
 }
@@ -79,7 +61,6 @@ svg{
     text-align: center;
     font-size: large;
     margin: 30px 15px;
-    /* padding: 25px 15px; */
 }
 
 .tartalom1_kep{
@@ -139,7 +120,6 @@ svg{
 
   .oldal_neve{
       font-family: 'Roboto', sans-serif;
-      
   }
 
   .valaszto{
@@ -159,9 +139,6 @@ svg{
   #btn-back-to-top:hover svg{
     color: rgba(153, 166, 139, .7);
   }
-  
-
-
   
   .árcucc{
     color: #66635B;
@@ -282,11 +259,9 @@ svg{
   }
 
   .galeria_kijovo{
-      /* position: absolute !important; */
       left: 0px;
       z-index: 1 !important;
       display: none;
-      
   }
 
   .galeria_kijovo img{
@@ -326,7 +301,6 @@ svg{
 @media only screen and (orientation: portrait) and (max-width:600px) {
     .kijovo{
         margin-top: 35vh;
-        /* margin-bottom: auto; */
     }
     .galeria_kijovo{
         margin-left: 0;
@@ -335,11 +309,10 @@ svg{
     }
 }
 
-#el_fotosaink{
+.el_fotosaink{
     width: 80%;
     margin: 20px auto;
     padding: 20px;
-    border: 5px solid rgba(153, 166, 139, 1);
     height: fit-content;
     color: rgba(102, 99, 91, 1);
     background-color: rgba(153, 166, 139, 1);
@@ -356,13 +329,11 @@ svg{
 .el_fotos_szoveg{
     padding: 2px 0px;
     font-size: 2vh;
-    /* font-size: 140%; */
 }
 
 .el_fotos_svg{
     background-color: rgba(153, 166, 139, 1);
     width: 100%;
-    
     display: inline-block;
 }
 
